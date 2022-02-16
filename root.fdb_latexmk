@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1644991503 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1644991504
+["pdflatex"] 1644993562 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1644993562
   "/etc/texmf/web2c/texmf.cnf" 1610934661 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ken/prog/paper_eng/root.aux" 1644991504 2226 2f9111ec1a8e93aacce877952ade279a ""
-  "/home/ken/prog/paper_eng/root.tex" 1644991503 17758 e45abbadba97c21520091c168118adad ""
+  "/home/ken/prog/paper_eng/root.aux" 1644993562 2226 189acdb153efd41405db38505aab4bcf ""
+  "/home/ken/prog/paper_eng/root.tex" 1644993561 18730 e713b223560da208735b0fb4e13eb8e5 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -50,11 +50,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1610935910 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1610935944 8261171 32cb98f90371c3b43ae6b0e81314744e ""
   "ieeeconf.cls" 1461368340 202167 7b37f8353df61c9733ed46143eff807a ""
-  "root.aux" 1644991504 2226 2f9111ec1a8e93aacce877952ade279a "pdflatex"
-  "root.tex" 1644991503 17758 e45abbadba97c21520091c168118adad ""
+  "root.aux" 1644993562 2226 189acdb153efd41405db38505aab4bcf "pdflatex"
+  "root.tex" 1644993561 18730 e713b223560da208735b0fb4e13eb8e5 ""
   (generated)
   "/home/ken/prog/paper_eng/root.log"
-  "root.pdf"
   "/home/ken/prog/paper_eng/root.pdf"
-  "root.aux"
   "root.log"
+  "root.pdf"
+  "root.aux"
