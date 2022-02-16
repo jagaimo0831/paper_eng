@@ -30,25 +30,31 @@
 %\usepackage{amsmath} % assumes amsmath package installed
 %\usepackage{amssymb}  % assumes amsmath package installed
 
+% パッケージ達
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{ikuo}
+\newcommand{\FIGDIR}{./fig}	%図を置くディレクトリを指定する
+
+
 \title{\LARGE \bf
-Presenting the sensation of flying with flapping virtual wings independent of the limbs
+        Presenting the sensation of flying with flapping virtual wings independent of the limbs
 }
 
-
 \author{Ken Endo$^{1}$ and Ikuo Mizuuchi$^{2}$% <-this % stops a space
-\thanks{*This work was not supported by any organization}% <-this % stops a space
-\thanks{$^{1}$Albert Author is with Faculty of Electrical Engineering, Mathematics and Computer Science,
-        University of Twente, 7500 AE Enschede, The Netherlands
-        {\tt\small albert.author@papercept.net}}%
-\thanks{$^{2}$Bernard D. Researcheris with the Department of Electrical Engineering, Wright State University,
-        Dayton, OH 45435, USA
-        {\tt\small b.d.researcher@ieee.org}}%
+
+        % これいる?
+        \thanks{*This work was not supported by any organization}% <-this % stops a space
+        \thanks{$^{1}$Albert Author is with Faculty of Electrical Engineering, Mathematics and Computer Science,
+                University of Twente, 7500 AE Enschede, The Netherlands
+                {\tt\small albert.author@papercept.net}}%
+        \thanks{$^{2}$Bernard D. Researcheris with the Department of Electrical Engineering, Wright State University,
+                Dayton, OH 45435, USA
+                {\tt\small b.d.researcher@ieee.org}}%
 }
 
 
 \begin{document}
-
-
 
 \maketitle
 \thispagestyle{empty}
@@ -57,18 +63,33 @@ Presenting the sensation of flying with flapping virtual wings independent of th
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-
-        Since ancient times, people have longed to fly in the sky. Actual flying involves risks and costs, but using a VR device makes it easy to experience flight. In this study, we propose a method of presenting the sensation of flying with flapping virtual wings independent of the limbs, such as a flying lizard. Unlike studies that presents the sensation of flapping wings by moving the arms, new applications that use the limbs during the flight experience can be expected by flying without moving the limbs. In this paper, we proposed a method of presenting the sensation of manipulating the wing without using the limbs and a method of transmitting the force acting on the wing to humans. We conducted experiments using these methods and obtained subjective evaluations.
+        Since ancient times, people have longed to fly in the sky. 
+        Actual flying involves risks and costs, but using a VR device makes it easy to experience flight. 
+        In this study, we propose a method of presenting the sensation of flying with flapping virtual wings independent of the limbs, such as a flying lizard. 
+        Unlike studies that presents the sensation of flapping wings by moving the arms, new applications that use the limbs during the flight experience can be expected by flying without moving the limbs. 
+        In this paper, we proposed a method of presenting the sensation of manipulating the wing without using the limbs and a method of transmitting the force acting on the wing to humans. 
+        We conducted experiments using these methods and obtained subjective evaluations.
         % 
-        From the experiment, it was confirmed that the operation by static muscle contraction is also effective for operationing wings. It was also shown that the tactile presentation using EMS has a higher overall evaluation. Finally, we obtained the result that the body image expansion of the virtual wing which proposed in this study is possible.
-
+        From the experiment, it was confirmed that the operation by static muscle contraction is also effective for operationing wings. 
+        It was also shown that the tactile presentation using EMS has a higher overall evaluation. 
+        Finally, we obtained the result that the body image expansion of the virtual wing which proposed in this study is possible.
 \end{abstract}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
-hogehoge
+        % \begin{figure}[!t]
+        % \centering
+        % \includegraphics[clip, width=3.4in]{WingMan.pdf}}
+        % \caption{Caption.}
+        % \label{fig:figure1}
+        % \end{figure}
+
+        \fig{WingMan.pdf}{width=.9\hsize}{Flying with flapping virtual wings independent of the limbs}
+
+        Since ancient times, people have longed to fly in the sky. 
+
 
 This template provides authors with most of the formatting specifications needed for preparing electronic versions of their papers. All standard paper components have been specified for three reasons: (1) ease of use when formatting individual papers, (2) automatic compliance to electronic requirements that facilitate the concurrent or later production of electronic products, and (3) conformity of style throughout a conference proceedings. Margins, column widths, line spacing, and type styles are built-in; examples of the type styles are provided throughout this document and are identified in italic type, within parentheses, following the example. Some components, such as multi-leveled equations, graphics, and tables are not prescribed, although the various table text styles are provided. The formatter will need to create these components, incorporating the applicable criteria that follow.
 

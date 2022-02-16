@@ -1,5 +1,7 @@
 # memo
 - とりあえず修論前刷りを英訳する
+- ieeeのlatexフォーマットについて参考になりそうなやつ http://did2.blog64.fc2.com/blog-entry-384.html
+
 
 # RA-L?
 - 締め切り: 2/24 https://www.ieee-ras.org/publications/ra-l/information-for-authors-ra-l
