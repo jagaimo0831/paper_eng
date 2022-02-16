@@ -1,7 +1,20 @@
+# memo
+- とりあえず修論前刷りを英訳する
 
+# RA-L?
+- 締め切り: 2/24 https://www.ieee-ras.org/publications/ra-l/information-for-authors-ra-l
+- IROS締め切り: 3/1 https://iros2022.org/
+- ページ数: 6ページ(IEEE系列の書式?)
+
+# .md viewer
+- ctrl + k -> v
+
+# トラブル
+- デフォルトのテンプレには変なはてな(?: U+FFFT)が使われていてmake出来ないので置換するか消すこと
+
+# template
 
 April 2, 2003
-
 
 IEEEtran.bst is the official BibTeX style for authors of the Institute of
 Electrical and Electronics Engineers (IEEE) Transactions journals and
