@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1644997756 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1644997756
+["pdflatex"] 1645160214 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1645160214
   "/etc/texmf/web2c/texmf.cnf" 1610934661 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ken/prog/paper_eng/root.aux" 1644997756 2421 85bc7329eb7b86409bbe2387cb16ee2e ""
-  "/home/ken/prog/paper_eng/root.tex" 1644997756 19806 f7c6671d6503de918f9ce12268b74b72 ""
+  "/home/ken/prog/paper_eng/root.aux" 1645160214 2752 7f2155ba706a4be7f63bcf10b460a9b2 ""
+  "/home/ken/prog/paper_eng/root.tex" 1645160213 22766 765b5e30c1fa1ac8b3be9852e8661baa ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -100,11 +100,11 @@
   "fig/WingMan.pdf" 1643688708 156239 4f57ec6b7dcff45b0ff85ad7e485a803 ""
   "ieeeconf.cls" 1461368340 202167 7b37f8353df61c9733ed46143eff807a ""
   "ikuo.sty" 1644996287 4315 bb0cccfe4e185a669e36db7fdc2afa03 ""
-  "root.aux" 1644997756 2421 85bc7329eb7b86409bbe2387cb16ee2e "pdflatex"
-  "root.tex" 1644997756 19806 f7c6671d6503de918f9ce12268b74b72 ""
+  "root.aux" 1645160214 2752 7f2155ba706a4be7f63bcf10b460a9b2 "pdflatex"
+  "root.tex" 1645160213 22766 765b5e30c1fa1ac8b3be9852e8661baa ""
   (generated)
-  "/home/ken/prog/paper_eng/root.pdf"
   "root.log"
-  "/home/ken/prog/paper_eng/root.log"
-  "root.aux"
+  "/home/ken/prog/paper_eng/root.pdf"
   "root.pdf"
+  "root.aux"
+  "/home/ken/prog/paper_eng/root.log"
