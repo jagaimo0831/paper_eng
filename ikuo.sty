@@ -2,11 +2,11 @@
 \def\HLINE{\noalign{\hrule height 1.5pt}}
 \def\Hline{\noalign{\hrule height .9pt}}
 \def\smallhline{\noalign{\hrule height .1pt}}
-
+ 
 \newcommand{\figref}[1]{{図\ref{fig:#1}}}
 \newcommand{\tabref}[1]{{表\ref{tab:#1}}~}
 \newcommand{\equref}[1]{{式(\ref{equ:#1})}}
-
+ 
 \newcommand{\chapref}[1]{第{\bf\ref{chap:#1}}章}
 \newcommand{\secref}[1]{{\bf\ref{sec:#1}}節}
 \newcommand{\subsecref}[1]{{\bf\ref{subsec:#1}}節}
@@ -16,7 +16,7 @@
 \newcommand{\Pageref}[1]{p.{\pageref{Page:#1}}}
 \newcommand{\sgn}{\mbox{sgn}}
 \newcommand{\degree}{$^\circ$}
-
+ 
 \newcommand{\chaplabel}[1]{\label{chap:#1}}
 \newcommand{\seclabel}[1]{\label{sec:#1}}
 \newcommand{\subseclabel}[1]{\label{subsec:#1}}
@@ -27,7 +27,7 @@
 \newcommand{\enumlabel}[1]{\label{enum:#1}}
 \newcommand{\appendixlabel}[1]{\label{Appendix:#1}}
 \newcommand{\Pagelabel}[1]{\label{Page:#1}}
-
+ 
 % \newcommand{\pastefig}[2]{\epsfile{file=#1,#2}}
 \newcommand{\pastefig}[2]{\includegraphics[#2]{#1}}
 %% \newcommand{\vspacebeforefig}[0]{\vspace*{-2mm}}
@@ -35,20 +35,20 @@
 \newcommand{\vspacebeforefig}[0]{}
 \newcommand{\vspaceafterfig}[0]{}
 \newcommand{\vspacebetweenfig}[0]{\vspace*{2mm}}
-
-
+ 
+ 
 \newcommand{\fig}[3]{%
  \begin{figure}[tbp]%
   \begin{center}%
    \pastefig{\FIGDIR/#1}{#2}%
    \vspacebeforefig
-   \caption{#3}%
+   \caption{\small #3}%
    \figlabel{#1}%
    \vspaceafterfig
   \end{center}%
  \end{figure}%
 }
-
+ 
 \newcommand{\twofigs}[5]{%
  \begin{figure}[tbp]%
   \begin{center}%
@@ -62,7 +62,7 @@
   \end{center}%
  \end{figure}%
 }
-
+ 
 \newcommand{\figthrough}[3]{%
  \begin{figure*}[tbp]%
   \begin{center}%
@@ -74,7 +74,7 @@
   \end{center}%
  \end{figure*}%
 }
-
+ 
 \newcommand{\figb}[3]{%
  \begin{figure}[b]%
   \begin{center}%
@@ -86,7 +86,7 @@
   \end{center}%
  \end{figure}%
 }
-
+ 
 \newcommand{\figpos}[4]{%
  \begin{figure}[#4]%
   \begin{center}%
@@ -98,7 +98,7 @@
   \end{center}%
  \end{figure}%
 }
-
+ 
 \newcommand{\doublefig}[5]{%
  \begin{figure}[tb]%
   \begin{center}%
@@ -111,7 +111,7 @@
   \end{center}%
  \end{figure}%
 }
-
+ 
 \newcommand{\doublefigt}[5]{%
  \begin{figure}[tb]%
   \begin{center}%
@@ -124,7 +124,7 @@
   \end{center}%
  \end{figure}%
 }
-
+ 
 \newcommand{\doublefigb}[5]{%
  \begin{figure}[b]%
   \begin{center}%
@@ -138,7 +138,7 @@
   \end{center}%
  \end{figure}%
 }
-
+ 
 \newcommand{\doublefigthrough}[5]{%
  \begin{figure*}[t]%
   \begin{center}%
@@ -151,7 +151,7 @@
   \end{center}%
  \end{figure*}%
 }
-
+ 
 \newcommand{\triplefig}[7]{%
   \begin{figure}[tbp]%
 %     \leavevmode
@@ -169,7 +169,7 @@
     \end{center}%
     %\vspace{5mm}
 \end{figure}}
-
+ 
 \newcommand{\triplefigthrough}[7]{%
   \begin{figure*}[tbp]%
 %     \leavevmode
@@ -187,5 +187,5 @@
     \end{center}%
     %\vspace{5mm}
   \end{figure*}}
-
+ 
 %%% end of my definitions
