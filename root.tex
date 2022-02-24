@@ -124,43 +124,41 @@
         In this research, two elements are important: to make humans feel "wings" that do not originally exist, and to present the sensation of "flying with flapping with one's wings".  
         In order to present these sensations, we focus on the expantion of the body image.  
 
-        \subsection{Body image}
+        % \subsection{Body image}
                 Humans have the ability to perceive their own body shape, which is called body image\cite{head1911sensory}.  
                 It allows us to ditinguish between ourselves and others.
-
-                Besides, there are two concepts that are closely related to the body image: sence of self-ownership and self-agency.
-                Sence of self-ownership is the sensation or experience that one's own body parts belongs to one's own body.  
-                Sence of self-agency is the sensation or experience that one is performing and action by oneself and that one is in control of the body parts.  
-                
-                The sense of self-ownership and self-agency are closely related to  the formation of the body image.  
-                Therefore, it is considerd that the following elements in this research can be satisfied by flying with a virtual wings body image, that is by expanding the body image and operating.  
-
-                \begin{itemize}
-                        \item To make humans feel "wings" that do not originally exist (Sense of self-ownership)
-                        \item To present the sensation of "flying with flapping with one's wings" (Sense of self-agency)
-                \end{itemize}
-
-        \subsection{Body image expantion}
+                % 
+                % Besides, there are two concepts that are closely related to the body image: sence of self-ownership and self-agency.
+                % Self-ownership is the sensation that one's own body parts belongs to one's own body.  
+                % Self-agency is the sensation that one is performing and action by oneself.
+                % % and that one is in control of the body parts.  
+                % 
+                % Self-ownership and Self-agency are closely related to the formation of the body image.  
+                % Therefore, it is considerd that the following elements in this research can be satisfied by flying with a virtual wings body image, that is by expanding the body image and operating.  
+                % 
+                % \begin{itemize}
+                %         \item Feel "wings" that do not originally exist 
+                %         % (Ownership)
+                %         \item The sensation of "flying with flapping with one's wings" 
+                %         % (Agency)
+                % \end{itemize}
+                % 
                 The body image may change dynamically to parts other than the self.  
                 This is called body image expantion.  
-                An example of body image expansion is to treat a tool (for example, a tennis rackaet or a baseball bat) held in the hand as if it were a part of one's own body without being aware of its shape, and hit the ball back\cite{botvinick1998rubber}.
+                An example of body image expansion is to treat a tool (Ex. a tennis rackaet) held in the hand as if it were a part of one's own body without being aware of its shape, and hit the ball back\cite{botvinick1998rubber}.
                 
-
                 Body image expansion can be broadly categorized into two types: one is sensory remapping, such as the Rubber Hand Illusion (RHI), and the other is the dynamic expansion of the boy image during tool use mentioned above (Embodiment of tools).  
 
-        \subsection{Rubber Hand Illusion}
-                The Rubber Hand Illusion is the illusion that we feel the rubber hand as if it were our own hand.  
-                It is an illusion phenomenon in which a person perceives a haptics stimulus on a rubber hand after gibing a synchronized haptics stimulus to a real hand hidden from field of vision and a rubber hand in front of the eyes for about 2 to 20 minutes.  
+        \subsection{Types of body image expansion}
+                % RHI is the illusion that we feel the rubber hand as if it were our own hand.  
+                RHI is an illusion phenomenon in which a person perceives a haptics stimulus on a rubber hand after gibing a synchronized haptics stimulus to a real hand hidden from field of vision and a rubber hand in front of the eyes for about 2 to 20 minutes.  
                 One of the characteristics of RHI-based body image expansion is that the original body part and the remapped part cannnot coexist.
-
-        \subsection{Embodiment of tools}
+                
                 There is a neurophysiological study on the embodiment of tools using Japanese macaque monkeys that showed the expansion of body image by tool use.  
                 By observing the activity of bimodal nuerons with hand somatosensory receptors and visual receptors near the hand in the parietal cortex of Japanese macaque monkeys during tool use, and showed that the monkey's body image extendetd to the tip of the tool\cite{iriki1996coding}.
                 
-
         \subsection{Body image expantion approach}
                 In this research, we focus on the body image expantion to tools (embodiment of tools).
-
                 It is known that tele-robots and avatars, which have similar degrees of freedom and dynamics to humans, can be recognized as part of the body by perfectly synchronizing their body movements, such as the generation of the sensation of being transported, as in the RHI, or the embodiment of tools.
                 % ここ完全にDeepLにぶち込んだだけ，意味わからんから何も確認・修正出来ていない．
                 
@@ -172,24 +170,27 @@
                 \fig{maezuri-Method_of_body_image_expansion.pdf}{width=.8\hsize}{Method of body image expansion}
 
                 As described above, body image expantion (embodiment of tools) can be expected by integratin multiple senses and matching the sensory information presented in time.  
-                In this study , we try to expand the body image as shown in Fig. 2.  
-                We attempted to integrate multiple senses by giving a instruction to move the wing from the human to the wing, and transmitting the sense of having wings, the sense of flying with wings, and the sense of air resistance.  
+                In this study, we try to expand the body image as shown in Fig. 2.  
+                We attempted to integrate multiple senses by giving a instruction to move the wing from the human to the wing, and transmitting 
+                % the sense of having wings, the sense of flying with wings, and the sense of air resistance.  
+                the information from wings.
                 From the above, we present the sensation of flying with flapping virtual wings independent of the limbs.
 
-\section{HOW TO PRESENT WINGS INDEPENDENT OF LIMBS}
+\section{METHOD OF PRESENT WINGS INDEPENDENT OF LIMBS}
         
         \subsection{Information transmission from humans to virtual wings}
-                First, we describe a method of giving instruction from a human to virtual wings to move the wings.
+                % First, we describe a method of giving instruction from a human to virtual wings to move the wings.
                 There are several methods of presenting information from a human to a system in a VR space, such as using a controller, gestures, or biological signals.
-                Since the purpose of this study is to control the wings with something other than the limbs, we use biological signals that can be measured without limbs movement, instead of controllers that mainly use the hands or gesture that require limbs movement.
-                In addition, the virtual  wings is controlled by EMGs, which are easy to obtain numarical values among biological signals.
+                Since the purpose of this study is to control the wings with something other than the limbs, we use biological signals that can be measured without limbs movement, instead of controllers and gesture that mainly use the hands. 
+                In addition, the virtual  wings is controlled by EMG, which are easy to obtain numarical values among biological signals.
 
         \subsection{Information transmission from virtual wings to humans}
-                Next, we describe a method of providing information from the virtual wings to a human. 
-                The five senses can ve mentioned as senses that work on humans.
-                Among them, visual and haptics senses are often used as the information that works on humans in body image expantion.  
+                % Next, we describe a method of providing information from the virtual wings to a human. 
+                % The five senses can ve mentioned as senses that work on humans.
+                % Among them, visual and haptics senses are often used as the information that works on humans in body image expantion.  
+                In many studies of body image expansion, visual and haptics sensations are used.  
                 This indicates that the integration of visual and haptics senses is effective in body image expansion. 
-                In this research, we present information from virtual wings using both visual and haptics senses.  
+                In this research, we also present information from virtual wings using both visual and haptics senses.  
 
                 \subsubsection{Presentation of visual information}
                 
@@ -198,7 +199,7 @@
                         The visual presentation is performed by outputting images created by PC software (Unity) to a visual display as shown in Fig. 3. 
                         The output image shows it is moving in the air and wings growning from one's back.
 
-                        We use an illusion called vection (self-induced self-motion sensation) to present the appearance of movement in the air\cite{bhalla1999visual}.
+                        We use an illusion called Vection to present the appearance of movement in the air\cite{bhalla1999visual}.
                         Vection is the illusion that a body moves in a direction opposite to the direction of motion of the stimulus when a uniform motion stimulus is presented over most of the visual field.  
                         
                         As for the presenting growing wings from the back, when the user looks back, one can see the part of the wings growing from the back.
@@ -209,10 +210,9 @@
                         This encourages the expansion of the body image through the presentation of haptis sensations to a certain area, similar to the expansion of the body image to the tip of a stick held by the hand in the embodiment of tools.
 
                         Besides, we also prepare two haptics displays: one using vibration and the other using electrical stimulation.
-
                         Haptics display using vibration presents vibration by an eccentric motor.  
                         Haptics display using elecal stimulation is called EMS (Electro Myo Stimulation) is a method of stimulating muscle contraction by applying electrical stimulation to muscles and motor nerves to simulate haptics sensation.  
-
+                        
                         In this research, haptics sensation is generated by muscle contraction using EMS equipment, and information from the wings is presented.  
 
 
@@ -222,19 +222,18 @@
 
         \subsection{Exprimental environment for subjective evaluation}
                 \fig{maezuri-Experiment_equipment_system.pdf}{width=.8\hsize}{Experimental environment system}
-                We describe the experimental environment for the subjective evaluation experiment.
-                As shown in Fig. 4, we use a system that sends the values measured by the electromyography device to the software (Unity) on the terminal, and operates the visual and haptics presentation devices from Unity.  
+                % We describe the experimental environment for the subjective evaluation experiment.
+                As shown in Fig. 4, we use a system that sends the values measured by the electromyography device to the Unity on the terminal, and operates the visual and haptics presentation devices from Unity.  
 
                 \fig{maezuri-EMG_dev.pdf}{width=.8\hsize}{EMG devices (Left: Myo, Right: MyoWare)}
-                First, two EMG measuring devices, Myo (Thalmic Labs, Fig. 5. left) and MyoWare (Advancer Technologies, Fig. 5. right) , are prepared to compare manipulation by gesture and force.  
+                First, two EMG measuring devices, Myo (Thalmic Labs, Fig. 5. left) and MyoWare (Advancer Technologies, Fig. 5. right), are prepared to compare manipulation by gesture and force.  
 
                 \fig{EMG_device_HV-F122.pdf}{width=0.7\hsize}{EMG device (Omron HV-F122)}
                 Next, for haptics display, we prepare haptics presentation devices using vibration and EMS.  
                 The vibration function of Myo is used for vibration haptics presentation, and the Omron HV-F122 (Fig. 6) , a low-frequency treatment device, is used for EMS haptivs display.  
 
                 % \fig{exprtiment-VirtualWings_skeleton.pdf}{width=0.7\hsize}{Virtual Wings skeleton}
-                Then, for the visual presentation device, two types of visual presentation will be prepared, one using an LCD monitor and the other using a Head Mounted Display (HMD) , in order to compare the third-person perspective and the first-person perspective.  
-                The LCD monitor is GW2765HT (BenQ), and the HMD is Quest from Meta. 
+                For the visual presentation device, we prepared an LCD display and an HMD (Quest (Meta Inc)) to compare the third-person and first-person perspectives.
                 % The virtual wings used for visual presentation is shown in Fig. 7.  
 
         \subsection{Examination of operation and presentation methods}
@@ -390,7 +389,7 @@
                 In the previous section, we confirmed that there is a difference in the sensation of flapping wings depending on the myoelectric measurement position and the haptics presentation position.  
                 In this section, we verify the difference in the sensation (degree of body image expansion) between the myoelectric measurement position and the haptics presentation position from the subject experiment.  
 
-        \subsection{Expreimantal environment for conducting subject experiments}
+        \subsection{Expreimantal environment}
                 \fig{VirtualWingsV2.png}{width=0.8\hsize}{Virtual Wings}
                 This section describes the experimental environment in which the subject experiment is conducted.  
                 In the subject experiment, as in the subjective evaluation experiment in Section 4, the experiment is conducted in a system with the environment as shown in Figure 4.  
@@ -398,7 +397,7 @@
                 We use MyoWare (Fig. 5) as the myoelectric measurement devices.  
                 The acquired EMG values are sent to Unity to control the visual and haptics presentation devices.  
 
-                The HMD (VIVE PRO EYE (HTC)) is used as the visual presentation device, and the virtual wings (Fig. 9) is presented from a first-person perspective.  
+                The HMD (Vive Pro Eye (HTC)) is used as the visual presentation device, and the virtual wings (Fig. 9) is presented from a first-person perspective.  
 
                 
                 \fig{maezuri-Haptics_dev.pdf}{width=.8\hsize}{Haptics display device (Left: Vibration, Right: EMS)}

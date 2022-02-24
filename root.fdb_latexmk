@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex root"] 1645675064 "root.aux" "root.bbl" "root" 1645675065
+["bibtex root"] 1645677948 "root.aux" "root.bbl" "root" 1645677974
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "reference.bib" 1645515522 20609 1d9fb1b14bdf6aff743d5cbf3681cfbf ""
-  "root.aux" 1645675065 8194 e62195d0fa9be8cd79486c7d667e3464 "pdflatex"
+  "root.aux" 1645677974 7846 06163e02a4ede3acbd337d9d6fd5bcae "pdflatex"
   (generated)
-  "root.bbl"
   "root.blg"
-["pdflatex"] 1645675064 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1645675065
+  "root.bbl"
+["pdflatex"] 1645677974 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1645677974
   "/etc/texmf/web2c/texmf.cnf" 1610934661 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ken/prog/paper_eng/root.aux" 1645675065 8194 e62195d0fa9be8cd79486c7d667e3464 ""
-  "/home/ken/prog/paper_eng/root.tex" 1645675062 59683 4e71af619b45588503ca7b37903d6f62 ""
+  "/home/ken/prog/paper_eng/root.aux" 1645677974 7846 06163e02a4ede3acbd337d9d6fd5bcae ""
+  "/home/ken/prog/paper_eng/root.tex" 1645677972 59521 36586de2626d26fbb94b51d3e1ce6a63 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -139,12 +139,12 @@
   "fig/subjectexp-result_mesure_or_presen.png" 1642996310 16088 49aa4164a297774ad7781cf3c451f366 ""
   "ieeeconf.cls" 1461368340 202167 7b37f8353df61c9733ed46143eff807a ""
   "ikuo.sty" 1645172475 4338 f18dbc7a80458dbfc335b4438478451c ""
-  "root.aux" 1645675065 8194 e62195d0fa9be8cd79486c7d667e3464 "pdflatex"
-  "root.bbl" 1645675064 1899 2d649df3a83208213243a0ef0cf91fde "bibtex root"
-  "root.tex" 1645675062 59683 4e71af619b45588503ca7b37903d6f62 ""
+  "root.aux" 1645677974 7846 06163e02a4ede3acbd337d9d6fd5bcae "pdflatex"
+  "root.bbl" 1645677948 1899 2d649df3a83208213243a0ef0cf91fde "bibtex root"
+  "root.tex" 1645677972 59521 36586de2626d26fbb94b51d3e1ce6a63 ""
   (generated)
   "/home/ken/prog/paper_eng/root.pdf"
+  "/home/ken/prog/paper_eng/root.log"
+  "root.aux"
   "root.pdf"
   "root.log"
-  "root.aux"
-  "/home/ken/prog/paper_eng/root.log"
