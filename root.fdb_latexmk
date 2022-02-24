@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex root"] 1645677948 "root.aux" "root.bbl" "root" 1645677974
+["bibtex root"] 1645680363 "root.aux" "root.bbl" "root" 1645680387
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "reference.bib" 1645515522 20609 1d9fb1b14bdf6aff743d5cbf3681cfbf ""
-  "root.aux" 1645677974 7846 06163e02a4ede3acbd337d9d6fd5bcae "pdflatex"
+  "root.aux" 1645680373 7123 b8214bee7af7e196d86011fe60de6ad5 "pdflatex"
   (generated)
-  "root.blg"
   "root.bbl"
-["pdflatex"] 1645677974 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1645677974
+  "root.blg"
+["pdflatex"] 1645680373 "/home/ken/prog/paper_eng/root.tex" "/home/ken/prog/paper_eng/root.pdf" "root" 1645680387
   "/etc/texmf/web2c/texmf.cnf" 1610934661 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ken/prog/paper_eng/root.aux" 1645677974 7846 06163e02a4ede3acbd337d9d6fd5bcae ""
-  "/home/ken/prog/paper_eng/root.tex" 1645677972 59521 36586de2626d26fbb94b51d3e1ce6a63 ""
+  "/home/ken/prog/paper_eng/root.aux" 1645680373 7123 b8214bee7af7e196d86011fe60de6ad5 ""
+  "/home/ken/prog/paper_eng/root.tex" 1645680385 59093 52fcb28696377431b4ae853048d7e2fd ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -123,10 +123,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1610935910 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1610935944 8261171 32cb98f90371c3b43ae6b0e81314744e ""
   "balance.sty" 1644986502 3366 1f6ab11cc04176ab1267843f9beed45a ""
-  "fig/EMG_device_HV-F122.pdf" 1645669461 260633 099f435d8176bd06c1b976c109dd1a61 ""
   "fig/Manipulation_of_VirtualWings_using_Myo.pdf" 1639128914 101656 b6ddbd1bd7ca81b77cd7967f30f9c007 ""
-  "fig/Manipulation_of_VirtualWings_using_MyoWare.pdf" 1643616445 116709 a64faa5ab1a74dac520ea4b4cb98f4ae ""
-  "fig/Movement_of_VirtualWingsV2.pdf" 1639128913 105039 b9644df3db9f9488d071b39c3c749c44 ""
   "fig/VirtualWingsV2.png" 1643162142 144752 6049fc45768485c9b83786ba039feb8e ""
   "fig/WingMan.pdf" 1643688708 156239 4f57ec6b7dcff45b0ff85ad7e485a803 ""
   "fig/maezuri-EMG_dev.pdf" 1643597994 219337 26d352d0169fee4588406e783ed0c3b8 ""
@@ -139,12 +136,12 @@
   "fig/subjectexp-result_mesure_or_presen.png" 1642996310 16088 49aa4164a297774ad7781cf3c451f366 ""
   "ieeeconf.cls" 1461368340 202167 7b37f8353df61c9733ed46143eff807a ""
   "ikuo.sty" 1645172475 4338 f18dbc7a80458dbfc335b4438478451c ""
-  "root.aux" 1645677974 7846 06163e02a4ede3acbd337d9d6fd5bcae "pdflatex"
-  "root.bbl" 1645677948 1899 2d649df3a83208213243a0ef0cf91fde "bibtex root"
-  "root.tex" 1645677972 59521 36586de2626d26fbb94b51d3e1ce6a63 ""
+  "root.aux" 1645680373 7123 b8214bee7af7e196d86011fe60de6ad5 "pdflatex"
+  "root.bbl" 1645680363 1899 2d649df3a83208213243a0ef0cf91fde "bibtex root"
+  "root.tex" 1645680385 59093 52fcb28696377431b4ae853048d7e2fd ""
   (generated)
-  "/home/ken/prog/paper_eng/root.pdf"
   "/home/ken/prog/paper_eng/root.log"
   "root.aux"
-  "root.pdf"
   "root.log"
+  "root.pdf"
+  "/home/ken/prog/paper_eng/root.pdf"
