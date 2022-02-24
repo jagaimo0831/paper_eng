@@ -169,7 +169,7 @@
                 Therefore, the temporal coincidence of sensory information is considerd to be important also in the embodiment of tools.  
                 On the other hand, spatial coincidence is considered to be flexible, and there are cases where the subject responds as if the subject had struck his or her hand when hitting the rubber hand with RHI occurring\cite{armel2003projecting}.  
 
-                \fig{maezuri-Method_of_body_image_expansion.pdf}{width=.9\hsize}{Method of body image expansion}
+                \fig{maezuri-Method_of_body_image_expansion.pdf}{width=.8\hsize}{Method of body image expansion}
 
                 As described above, body image expantion (embodiment of tools) can be expected by integratin multiple senses and matching the sensory information presented in time.  
                 In this study , we try to expand the body image as shown in Fig. 2.  
@@ -193,7 +193,7 @@
 
                 \subsubsection{Presentation of visual information}
                 
-                        \fig{maezuri-Visual_presentation.pdf}{width=.9\hsize}{Presentation of visual information by using the virtual environment}
+                        \fig{maezuri-Visual_presentation.pdf}{width=.8\hsize}{Presentation of visual information by using the virtual environment}
 
                         The visual presentation is performed by outputting images created by PC software (Unity) to a visual display as shown in Fig. 3. 
                         The output image shows it is moving in the air and wings growning from one's back.
@@ -221,11 +221,11 @@
         Using the proposed method of body image expansion, we examine the methods of manipulation and presentation, the position of manipulation and presentation, and evaluate each combination.  
 
         \subsection{Exprimental environment for subjective evaluation}
-                \fig{maezuri-Experiment_equipment_system.pdf}{width=1\hsize}{Experimental environment system}
+                \fig{maezuri-Experiment_equipment_system.pdf}{width=.8\hsize}{Experimental environment system}
                 We describe the experimental environment for the subjective evaluation experiment.
                 As shown in Fig. 4, we use a system that sends the values measured by the electromyography device to the software (Unity) on the terminal, and operates the visual and haptics presentation devices from Unity.  
 
-                \fig{maezuri-EMG_dev.pdf}{width=.9\hsize}{EMG devices (Left: Myo, Right: MyoWare)}
+                \fig{maezuri-EMG_dev.pdf}{width=.8\hsize}{EMG devices (Left: Myo, Right: MyoWare)}
                 First, two EMG measuring devices, Myo (Thalmic Labs, Fig. 5. left) and MyoWare (Advancer Technologies, Fig. 5. right) , are prepared to compare manipulation by gesture and force.  
 
                 \fig{EMG_device_HV-F122.pdf}{width=0.7\hsize}{EMG device (Omron HV-F122)}
@@ -391,7 +391,7 @@
                 In this section, we verify the difference in the sensation (degree of body image expansion) between the myoelectric measurement position and the haptics presentation position from the subject experiment.  
 
         \subsection{Expreimantal environment for conducting subject experiments}
-                \fig{VirtualWingsV2.png}{width=0.9\hsize}{Virtual Wings}
+                \fig{VirtualWingsV2.png}{width=0.8\hsize}{Virtual Wings}
                 This section describes the experimental environment in which the subject experiment is conducted.  
                 In the subject experiment, as in the subjective evaluation experiment in Section 4, the experiment is conducted in a system with the environment as shown in Figure 4.  
 
@@ -401,7 +401,7 @@
                 The HMD (VIVE PRO EYE (HTC)) is used as the visual presentation device, and the virtual wings (Fig. 9) is presented from a first-person perspective.  
 
                 
-                \fig{maezuri-Haptics_dev.pdf}{width=.9\hsize}{Haptics display device (Left: Vibration, Right: EMS)}
+                \fig{maezuri-Haptics_dev.pdf}{width=.8\hsize}{Haptics display device (Left: Vibration, Right: EMS)}
                 Fig. 10 shows the haptics presentation devices.  
                 Fig. 10 left shows a device that controls an eccentric motor with Arduino to give vibration.  
                 Fig. 10 right shows a device that controls a low-frequency therapy device (Omron HV-F127) with Arduino and provides electrical stimulation.  
@@ -426,7 +426,7 @@
                 % $k$ is a constant of proportionality ($k=5.0$).  
 
                 
-                \fig{Movement_of_VirtualWingsV2.pdf}{width=.9\hsize}{Movement of Virtual Wings}
+                \fig{Movement_of_VirtualWingsV2.pdf}{width=.8\hsize}{Movement of Virtual Wings}
                 A specific flight method in VR space is described.  
                 First, the wings operation method is designed so that the virtual wings flaps inward while the operation position (electromyographic measurement position) is being applied, and the virtual wings expands when it is relaxed (Fig. 11).  
                 By flapping the virtual wings, a force 
@@ -455,25 +455,24 @@
 
         
         \subsection{Experimental method}
-                Three types of myoelectric measurement positions, four types of haptics presentation positions, and two types of haptics presentation devices are compared.  
-                The myoelectric measurement positions are biceps brachii (dynamic contraction), pectoralis major (static contraction), and trapezius (static contraction), the haptics presentation positions are chest, abdomen, waist, and back, and the haptics presentation types are vibration and electricity.
+                Three types of EMG measurement positions (biceps brachii (dynamic contraction) / pectoralis major (static contraction) / trapezius (static contraction)), four types of haptics presentation positions (chest / abdomen / waist / back), and two types of haptics presentation devices (vibration / electricity) are compared.  
+                % The EMG measurement positions are biceps brachii (dynamic contraction), pectoralis major (static contraction), and trapezius (static contraction), the haptics presentation positions are chest, abdomen, waist, and back, and the haptics presentation types are vibration and electricity.
                 
                 The procedure of the experiment is shown below.  
                 \begin{itemize}
-                        \item The haptics sensation is presented by vibration. The myoelectric measurement position is fixed to the biceps brachii muscle (the part that is easiest to make a forceful movement), and the haptics presentation position is changed for comparison.
-                        \item The haptics sensation presentation position is fixed to the area with the highest evaluation, and the myoelectric measurement position is changed for comparison.
-                        \item Next, the haptics sensation is presented by EMS. The myoelectric measurement position is fixed to the area with the highest evaluation, and the haptics presentation position is changed for comparison.
-                        \item The position of the haptics sensation presentation was fixed to the area with the highest evaluation, and the myoelectric measurement position was changed for comparison.
+                        \item The EMG measurement position is fixed, and the haptics presentation position is changed for comparison.
+                        \item The haptics sensation presentation position is fixed, and the myoelectric measurement position is changed for comparison.
+                        \item Change the haptics presentation device to EMS and repeat above process.
                 \end{itemize}
 
                 The questionnaire was filled out using a 9-point Likert scale. The content of the questionnaire is shown below. 
                 \begin{itemize}
-                        \item Describe the evaluation of each of the haptics presentations (chest, abdomen, waist, and back).
-                        \item Describe the evaluation of each of the myoelectric measurement positions (arm, chest and shoulder).\\
-                                (Ask the above two questions twice, once using vibration and once using EMS as the haptics presentation.)
-                        \item Which haptics presentation gave you more of a sense of flapping wings and flying, vibration or EMS?
-                        \item Which did you feel was more important in presenting the sensation of flying with flapping, the myoelectric measurement position or the haptics presentation position?
-                        \item Were you able to feel the sensation of flying with flapping one's wings ?
+                        \item Comparison of haptics presentation position. 
+                        \item Comparison of EMG measurement position.
+                                %\\ (Ask the above two questions twice, once using vibration and once using EMS as the haptics presentation.)
+                        \item Which is better, vibration or electrical stimulation?
+                        \item Which is more important, the EMG measurement position or the haptics presentation position?
+                        \item How well did you feel the sensation of flying with flapping with wings growing from your back?
                 \end{itemize}
                 
         \subsection{Experimental results and discussion}
